@@ -10,4 +10,10 @@ public:
     {
         next = NULL;
     }
+};
+
+class stack
+{
+private:
+
 }
