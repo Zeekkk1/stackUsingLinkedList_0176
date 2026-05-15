@@ -42,6 +42,8 @@ public:
             return;
         }
 
-        cout << ""
+        cout << "Popped value: " << temp->data << endl;
+        top = temp->next;
+        delete temp;
     }
 }
